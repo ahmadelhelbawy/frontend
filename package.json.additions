@@ -1,0 +1,44 @@
+# Additional Dependencies for Advanced Dashboard Optimization
+
+## Core Animation & Interaction Libraries
+"framer-motion": "^10.16.0"
+"react-spring": "^9.7.0"
+"lottie-react": "^2.4.0"
+
+## Advanced State Management & Forms
+"zustand": "^4.4.0"
+"react-hook-form": "^7.45.0"
+"react-hotkeys-hook": "^4.4.0"
+
+## Real-Time Communication
+"socket.io-client": "^4.7.0"
+"@tanstack/react-query": "^3.39.0"
+
+## Data Visualization & 3D
+"d3": "^7.8.0"
+"three": "^0.155.0"
+"@react-three/fiber": "^8.13.0"
+
+## Security & Encryption
+"crypto-js": "^4.1.1"
+"web-push": "^3.6.0"
+"jsonwebtoken": "^9.0.0"
+
+## AI & Machine Learning
+"@tensorflow/tfjs": "^4.10.0"
+"ml-matrix": "^6.10.0"
+
+## Performance & Optimization
+"react-virtualized": "^9.22.0"
+"react-window": "^1.8.8"
+"web-vitals": "^3.3.0"
+
+## Utility Libraries
+"lodash": "^4.17.21"
+"date-fns": "^2.30.0"
+"uuid": "^9.0.0"
+
+## Development Tools
+"@types/d3": "^7.4.0"
+"@types/three": "^0.155.0"
+"@types/lodash": "^4.14.195"

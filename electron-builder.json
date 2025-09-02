@@ -1,0 +1,43 @@
+{
+  "appId": "com.aisecurity.shoplifting-detection",
+  "productName": "AI Shoplifting Detection System",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "build/**/*",
+    "public/electron.js",
+    "public/preload.js",
+    "node_modules/**/*"
+  ],
+  "mac": {
+    "category": "public.app-category.business",
+    "target": [
+      {
+        "target": "dmg",
+        "arch": ["x64", "arm64"]
+      }
+    ]
+  },
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ],
+    "sign": false
+  },
+  "linux": {
+    "target": [
+      {
+        "target": "AppImage",
+        "arch": ["x64"]
+      }
+    ]
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  }
+}
